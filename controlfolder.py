@@ -50,3 +50,6 @@ if foldersize > limit:
         for l in range(1, len(line)-1):
             if line[l].split(';')[1] < line[len(line)-1].split(';')[0]:
                 remove(line[l].split(';')[0])
+
+# PUSHING THIS IF BLOCK INSIDE THE ABOVE 'WITH OPEN' WOULD REDUCE SOME LINES. BUT THE INTENTION, IN THE FUTURE, IS TO MAKE THE CODE
+# MORE O.O. AND CREATE A CLASS AND SOME METHODS.
