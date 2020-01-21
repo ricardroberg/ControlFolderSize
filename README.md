@@ -1,7 +1,6 @@
 # ControlFolderSize
 V.1
-Attempt to manage Cloud folder, DVR backups, etc. Locally.
-
+Attempt to manage Cloud folder, DVR backups, etc. Locally. When the folder hit the limit size, the script will remove all files except the newer one.
 
 ## OBS:
 Variables must be changed:  
@@ -16,3 +15,6 @@ ex: python controlfolder.py TEMP 5000 (folder name supressed)
 
 2 -   
 Implement watchdog to keep script alive instead using task manager to run it.  
+
+3 -
+Option to move files to another folder.
