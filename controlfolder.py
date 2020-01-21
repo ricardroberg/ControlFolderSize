@@ -1,13 +1,6 @@
-from os import getenv, listdir
-from os.path import join, isfile, getsize, getctime, abspath
+from os import getenv, listdir, remove
+from os.path import *
 from shutil import move
-
-# Get environment variables
-# Using for ONEDRIVE folder controll
-folderPath = getenv('ONEDRIVE')
-
-# Set file of folder to be controlled
-controledFolder = join(folderPath, 'DB')
 
 # get folder size and file list
 def getFolderSize(p):
@@ -26,33 +19,34 @@ def getFileList(p):
     Script got from StackOverFlow
     url: https://stackoverflow.com/questions/3207219/how-do-i-list-all-files-of-a-directory
     from: pycruft
-    slightly modified
+    slightly modified to create a dict with full file path and ctime, intead a list with only filename
     """
     # Create dictionary with absolute path and ctime
     return {join(controledFolder, filename): getctime(join(controledFolder, filename))
             for filename in listdir(p) if isfile(join(p, filename))}
 
 
-#print(getctime(folderPath, 'ex13_aula25.mwb'))
-
+# Get environment variables
+# Using for ONEDRIVE folder controll
+folderPath = getenv('ONEDRIVE')
+controledFolder = join(folderPath, 'DB')  # Set file of folder to be controlled
 foldersize = int(getFolderSize(controledFolder))/1048576  # folder size in MegaBytes
-print(getFileList(controledFolder))
+limit = 4500  # Free Onedrive accounts hold 5GB
+newest = 0
 
 # Create and store file list and set the newest variable to store newest file
 with open('folderdata.txt', 'w') as file:
-    newest = 99999999999999999999999999999
-    file.write(f'Folder size: {foldersize:.2f} MB\n')
+    file.write(f'Folder size: {foldersize:.2f} MB;\n')
     for k,v in getFileList(controledFolder).items():
         file.writelines(f'{k};{v}\n')
-        if v < newest
+        newest = v if v > newest else newest
+    file.writelines(f'{newest};')
 
 
 # Remove older files if limit is reached
-limit = 4500  # Free Onedrive accounts hold 5GB
-
-# if foldersize >= limit:
-#     lowestcreattime = 0
-#     for
-
-# print(getFolderSize(controledFolder))
-# print(getFileList(controledFolder))
+if foldersize > limit:
+    with open('folderdata.txt', 'r') as file:
+        line = file.readlines()
+        for l in range(1, len(line)-1):
+            if line[l].split(';')[1] < line[len(line)-1].split(';')[0]:
+                remove(line[l].split(';')[0])
