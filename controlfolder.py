@@ -28,10 +28,7 @@ def getFileList(p):
 
 # Get environment variables
 # Using for ONEDRIVE folder controll
-folderPath = getenv('ONEDRIVE')
-controledFolder = join(folderPath, 'DB')  # Set file of folder to be controlled
-foldersize = int(getFolderSize(controledFolder))/1048576  # folder size in MegaBytes
-limit = 4500  # Free Onedrive accounts hold 5GB
+git add
 newest = 0
 
 # Create and store file list and set the newest variable to store newest file
