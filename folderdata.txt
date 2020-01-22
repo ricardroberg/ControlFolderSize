@@ -1,38 +1,38 @@
 Folder size: 0.98 MB;
-E:\Maztah\ONEDRIVE\DB\ex11_aula25.mwb;1579603821.3920162
-E:\Maztah\ONEDRIVE\DB\ex11_aula25.mwb.bak;1579603821.4037106
-E:\Maztah\ONEDRIVE\DB\ex11_aula_25.png;1579603821.4163895
-E:\Maztah\ONEDRIVE\DB\ex11_aula_25_2.png;1579603821.4358966
-E:\Maztah\ONEDRIVE\DB\ex12_aula25.mwb;1579603821.4397988
-E:\Maztah\ONEDRIVE\DB\ex12_aula25.mwb.bak;1579603821.4446743
-E:\Maztah\ONEDRIVE\DB\ex12_aula_25.png;1579603821.449551
-E:\Maztah\ONEDRIVE\DB\ex12_aula_25_2.png;1579603821.465156
-E:\Maztah\ONEDRIVE\DB\ex12_aula_25_3.png;1579603821.4807613
-E:\Maztah\ONEDRIVE\DB\ex12_aula_25_4.png;1579603821.4905152
-E:\Maztah\ONEDRIVE\DB\ex13_aula25.mwb;1579603821.5046837
-E:\Maztah\ONEDRIVE\DB\ex13_aula25.mwb.bak;1579603821.5261407
-E:\Maztah\ONEDRIVE\DB\ex13_aula_25.png;1579603821.540771
-E:\Maztah\ONEDRIVE\DB\ex13_aula_25_2.png;1579603821.5563762
-E:\Maztah\ONEDRIVE\DB\ex14_aula25.mwb;1579603821.5729563
-E:\Maztah\ONEDRIVE\DB\ex14_aula25.mwb.bak;1579603821.5768576
-E:\Maztah\ONEDRIVE\DB\ex14_aula_25.png;1579603821.5797837
-E:\Maztah\ONEDRIVE\DB\ex15_aula25.mwb;1579603821.5836844
-E:\Maztah\ONEDRIVE\DB\ex15_aula25.mwb.bak;1579603821.5875862
-E:\Maztah\ONEDRIVE\DB\ex_aula_23.mwb;1579603821.590513
-E:\Maztah\ONEDRIVE\DB\ex_aula_23.mwb.bak;1579603821.6041667
-E:\Maztah\ONEDRIVE\DB\ex_aula_23.pdf;1579603821.6256235
-E:\Maztah\ONEDRIVE\DB\ex_aula_23.png;1579603821.6412292
-E:\Maztah\ONEDRIVE\DB\ex_aula_23_errei.mwb;1579603821.6500065
-E:\Maztah\ONEDRIVE\DB\ex_aula_23_solução_aula.pdf;1579603821.6539087
-E:\Maztah\ONEDRIVE\DB\ex_aula_23_solução_aula.png;1579603821.6656115
-E:\Maztah\ONEDRIVE\DB\nota_fiscal.mwb;1579603821.6802454
-E:\Maztah\ONEDRIVE\DB\nota_fiscal.mwb.bak;1579603821.6890194
-E:\Maztah\ONEDRIVE\DB\nota_fiscal.pdf;1579603821.700724
-E:\Maztah\ONEDRIVE\DB\nota_fiscal.png;1579603821.7124286
-E:\Maztah\ONEDRIVE\DB\teste.mwb;1579603821.7173038
-E:\Maztah\ONEDRIVE\DB\teste.mwb.bak;1579603821.727057
-E:\Maztah\ONEDRIVE\DB\teste.pdf;1579603821.731934
-E:\Maztah\ONEDRIVE\DB\teste.png;1579603821.7377858
-E:\Maztah\ONEDRIVE\DB\teste.sql;1579603821.7524157
-E:\Maztah\ONEDRIVE\DB\testetesteteste.txt;1579603821.7875278
-1579603821.7875278;
+E:\Maztah\ONEDRIVE\DB\ex11_aula25.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex11_aula25.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex11_aula_25.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex11_aula_25_2.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula25.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula25.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula_25.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula_25_2.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula_25_3.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex12_aula_25_4.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex13_aula25.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex13_aula25.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex13_aula_25.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex13_aula_25_2.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex14_aula25.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex14_aula25.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex14_aula_25.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex15_aula25.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex15_aula25.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23.pdf;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23_errei.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23_solução_aula.pdf;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\ex_aula_23_solução_aula.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\nota_fiscal.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\nota_fiscal.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\nota_fiscal.pdf;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\nota_fiscal.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\teste.mwb;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\teste.mwb.bak;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\teste.pdf;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\teste.png;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\teste.sql;Tue Jan 21 07:50:21 2020
+E:\Maztah\ONEDRIVE\DB\testetesteteste.txt;Tue Jan 21 07:50:21 2020
+Tue Jan 21 07:50:21 2020;

@@ -1,7 +1,6 @@
 from os import getenv, listdir, remove
 from os.path import *
-import time
-# from shutil import move  # Future use
+from shutil import move
 
 # get folder size and file list
 def getFolderSize(p):
@@ -29,28 +28,27 @@ def getFileList(p):
 
 # Get environment variables
 # Using for ONEDRIVE folder controll
-folderPath = getenv('ENVIROMENT_VARIABLE_NAME')
-controledFolder = join(folderPath, 'FOLDER_NAME')  # Set file of folder to be controlled
+folderPath = getenv('ONEDRIVE')
+print(folderPath)
+print(type(folderPath))
+controledFolder = join(folderPath, 'DB')  # Set file of folder to be controlled
 foldersize = int(getFolderSize(controledFolder))/1048576  # folder size in MegaBytes
-limit = 4500  # SIZE EM MEGABYTES
+limit = 4500  # Free Onedrive accounts hold 5GB
 newest = 0
 
 # Create and store file list and set the newest variable to store newest file
 with open('folderdata.txt', 'w') as file:
     file.write(f'Folder size: {foldersize:.2f} MB;\n')
     for k,v in getFileList(controledFolder).items():
-        file.writelines(f'{k};{time.ctime(v)}\n')
+        file.writelines(f'{k};{v}\n')
         newest = v if v > newest else newest
-    file.writelines(f'{time.ctime(newest)};')
+    file.writelines(f'{newest};')
 
 
-# Remove older files if limit is reached
-if foldersize > limit:
-    with open('folderdata.txt', 'r') as file:
-        line = file.readlines()
-        for l in range(1, len(line)-1):
-            if line[l].split(';')[1] < line[len(line)-1].split(';')[0]:
-                remove(line[l].split(';')[0])
-
-# PUSHING THIS 'IF' BLOCK INSIDE THE ABOVE 'WITH OPEN' WOULD REDUCE SOME LINES. BUT THE INTENTION, IN THE FUTURE,
-# IS TO MAKE THE CODE MORE O.O. AND CREATE A CLASS AND SOME METHODS.
+# # Remove older files if limit is reached
+# if foldersize > limit:
+#     with open('folderdata.txt', 'r') as file:
+#         line = file.readlines()
+#         for l in range(1, len(line)-1):
+#             if line[l].split(';')[1] < line[len(line)-1].split(';')[0]:
+#                 remove(line[l].split(';')[0])
